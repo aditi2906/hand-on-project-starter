@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .Marketplace {
+    font-family: DM Sans;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    border-bottom: 1px solid #F7F8FA;
+    justify-content: space-between;
+    background-color: white;
+  }
+  
+  .logo {
+    margin-left: 50px;
+    height: 29.24px;
+    cursor: pointer;
+  }
+  
+  nav button {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border: none;
+    margin: 20px 50px 20px 0;
+    background: #142683;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .divone {
+    height: 140px;
+    background-color: #C3E7FD;
+  
+    display: flex;
+    align-items: center;
+    margin: 43px 80px 40px 80px;
+    border-left: 10px solid white;
+  }
+  
+  .semicircle {
+    height: 140px;
+    width: 113px;
+    background-color: #D3B4F6;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+  }
+  
+  .bannercontent {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 130px;
+  }
+  
+  .Appnamebanner {
+    font-family:Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    margin: 0;
+  }
+  
+  .bannerdescription {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #566474;
+    margin: 0;
+  }
+  
+  .viewappbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    width: 133px;
+    height: 44px;
+    color: white;
+    background: #1E272E;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .divone img {
+    height: 140px;
+  }
+  .container{
+    margin:20px 80px 0 80px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 30px;
+  }
+  .allapi{
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  margin : 10px 0 25px 95px;
+  
+  color: #000000;
+  
+  }
+  
+  .holder{
+    background-color: rgb(247, 248, 250);
+  
+  }
+  .Navlinks{
+    display:flex;
+    display-direction: column;
+    justify-content: space-between;
+    width:28%;
+  }
+  
+  .navelements{
+    font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #566474;
+  align-self: center;
+  cursor: pointer;
+  }
+  
+  .navelements:hover{
+    color: black;
+  }
+  
+  .gridelement {
+    padding: 15px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .gridelement:hover {
+    transform: translateY(5px);
+    box-shadow: 1px 1px 20px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  .grid img{
+    width:100%;
+    align-self: start;
+  }
+  
+  .Apiname{
+    font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  margin: 10px 0 3px 0;
+  cursor: pointer;
+  }
+  
+  .Apidescription{
+    font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #566474;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+  overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient:vertical;
+  }
+  
